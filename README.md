@@ -9,7 +9,7 @@ This uses “integral image” concepts to compute the “features” detected.
 Haar Cascades use the Adaboost learning algorithm which selects a small number of important features from a large set to give an efficient result of classifiers.
 
 # detectMultiScale
-#faces = face_cascade.detectMultiScale(src, scalefactor,minNeighbors)
+## faces = face_cascade.detectMultiScale(src, scalefactor,minNeighbors)
 
  faces = face_cascade.detectMultiScale(gray, 1.3, 4)
 
