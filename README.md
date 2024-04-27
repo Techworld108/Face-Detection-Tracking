@@ -17,14 +17,21 @@ scaleFactor — Parameter specifying how much the image size is reduced at each 
 
 minNeighbors — Parameter specifying how many neighbors each candidate rectangle should have to retain it.
 
-# Block Diagram – Workflow of Face Detection
+# Workflow of Face Detection
 Loading HaarCascadeFace Algorithm
+
 Initializing Camera
+
 Reading Frame from Camera
+
 Converting Color image into Grayscale Image
+
 Obtaining Face coordinates by passing algorithm 
+
 Drawing Rectangle on the Face Coordinates
+
 Display the output Frame
+
 
 
 
