@@ -9,11 +9,22 @@ This uses “integral image” concepts to compute the “features” detected.
 Haar Cascades use the Adaboost learning algorithm which selects a small number of important features from a large set to give an efficient result of classifiers.
 
 # detectMultiScale
-## faces = face_cascade.detectMultiScale(src, scalefactor,minNeighbors)
+### faces = face_cascade.detectMultiScale(src, scalefactor,minNeighbors)
 
  faces = face_cascade.detectMultiScale(gray, 1.3, 4)
 
 scaleFactor — Parameter specifying how much the image size is reduced at each image scale.
 
 minNeighbors — Parameter specifying how many neighbors each candidate rectangle should have to retain it.
+
+# Block Diagram – Workflow of Face Detection
+Loading HaarCascadeFace Algorithm
+Initializing Camera
+Reading Frame from Camera
+Converting Color image into Grayscale Image
+Obtaining Face coordinates by passing algorithm 
+Drawing Rectangle on the Face Coordinates
+Display the output Frame
+
+
 
